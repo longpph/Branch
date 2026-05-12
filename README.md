@@ -154,3 +154,19 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/longpph/Branch.git
    580f8f7..2130f44  master -> master
 PS D:\GIT&HTML\Branch> code README.md
+PS D:\GIT&HTML\Branch> git add README.md
+PS D:\GIT&HTML\Branch> git commit -m "Lich su git"
+[master 33ae878] Lich sư git
+ 1 file changed, 156 insertions(+)
+ create mode 100644 README.md
+PS D:\GIT&HTML\Branch> git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.83 KiB | 1.83 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/longpph/Branch.git
+   2130f44..33ae878  master -> master
+PS D:\GIT&HTML\Branch> git branch -d feature/navmenu
+Deleted branch feature/navmenu (was a45f624).
